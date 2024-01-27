@@ -14,16 +14,6 @@ Nautílos looks at your codebase, potentially asks you a few questions, and then
 
 Under the hood, we're automatically generating [Dockerfiles](https://docs.docker.com/engine/reference/builder/), [Kustomization YAML](https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/), and [Skaffold](https://skaffold.dev/) configurations. If tools like `skaffold` and `kubectl` are not installed, Nautílos will handle that as well!
 
-Nautílos works best with the following ecosystems:
-
-- Node.js (including Next.js)
-- Ruby (including Rails)
-- Python (including Jekyll)
-- Static HTML
-- more coming soon!
-
-Nautílos is written in [Crystal](https://crystal-lang.org/) and has zero depencencies. It is the successor to [deploy-node-app](https://github.com/kubesail/deploy-node-app).
-
 ## Install
 
 ## Usage
@@ -45,3 +35,15 @@ nautilos build
 # All in one - generate configuration, build images, and deploy them.
 nautilos run
 ```
+
+## More information
+
+Nautílos works best with the following ecosystems:
+
+- Node.js (including Next.js)
+- Ruby (including Rails)
+- Python (including Jekyll)
+- Static HTML
+- more coming soon!
+
+Nautílos is written in [Crystal](https://crystal-lang.org/) and has zero depencencies. It is the successor to [deploy-node-app](https://github.com/kubesail/deploy-node-app).
