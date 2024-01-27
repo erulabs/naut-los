@@ -1,11 +1,15 @@
 # Nautílos
-Nautílos deploys virtually anything to Kubernetes, no config required.
 
-#### Why?
+Nautílos deploys virtually anything to Kubernetes, no config required. A successor to [deploy-node-app](https://github.com/kubesail/deploy-node-app). Nautílos is written in [Crystal](https://crystal-lang.org/) and has zero depencencies.
 
-Kubernetes is an immensely powerful standard. However, it is also a complex standard. While Kubernetes runs very well on developers laptops, in every cloud provider, and at the enterprise scale, it is *not* important for developers who just want to get their code deployed in a standard way. With Nautílos, developers can focus on their application while knowing their SRE team will be ecstatic that you've done all the setup already!
+Simply `nautilos run`!
+
+### Why?
+
+Kubernetes is an immensely powerful standard. However, it is also a complex standard. While Kubernetes runs very well on developers laptops, in every cloud provider, and at the enterprise scale, it is _not_ important for developers who just want to get their code deployed in a standard way. With Nautílos, developers can focus on their application while knowing their SRE team will be ecstatic that you've done all the setup already!
 
 ## Introduction
+
 Nautílos looks at your codebase, potentially asks you a few questions, and then deploys your code to any Kubernetes cluster, with (possibly) zero config.
 
 Under the hood, we're automatically generating [Dockerfiles](https://docs.docker.com/engine/reference/builder/), [Kustomization YAML](https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/), and [Skaffold](https://skaffold.dev/) configurations. If tools like `skaffold` and `kubectl` are not installed, Nautílos will handle that as well!
@@ -18,7 +22,7 @@ Nautílos works best with the following ecosystems:
 - Static HTML
 - more coming soon!
 
-Nautílos is written in [Crystal](https://crystal-lang.org/) and has zero depencencies. It is the successor to [deploy-node-app](https://github.com/kubesail/deploy-node-app). 
+Nautílos is written in [Crystal](https://crystal-lang.org/) and has zero depencencies. It is the successor to [deploy-node-app](https://github.com/kubesail/deploy-node-app).
 
 ## Install
 

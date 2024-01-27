@@ -1,0 +1,4 @@
+node_modules
+test/apps/ruby/**/.bundle
+test/apps/ruby/**/vendor
+test/apps/ruby/**/Gemfile.lock
